@@ -18,7 +18,6 @@ Requires:	rdesktop >= 1.1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 Simple program, written in perl using gtk-perl, as a frontend to
