@@ -2,6 +2,7 @@
 Name=Xrdesktop
 Comment=rdesktop frontend
 Comment[pl]=Interfejs dla rdesktop
+Icon=xrdesktop.png
 Exec=xrdesktop
 Terminal=0
 Type=Application
