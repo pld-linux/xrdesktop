@@ -2,8 +2,8 @@
 Summary:	Frontend to rdesktop
 Summary(pl):	Graficzny interfejs do obs³ugi rdesktop
 Name:		xrdesktop
-Version:	0.4
-Release:	2
+Version:	0.5
+Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://linux0wnsyou.com/xrdesktop/%{name}-%{version}.tar.gz
