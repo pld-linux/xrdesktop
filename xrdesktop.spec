@@ -3,7 +3,7 @@ Summary:	Frontend to rdesktop
 Summary(pl):	Graficzny interfejs do obs³ugi rdesktop
 Name:		xrdesktop
 Version:	0.5
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://linux0wnsyou.com/xrdesktop/%{name}-%{version}.tar.gz
@@ -33,10 +33,10 @@ Gtk-Perl.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/Network,%{_pixmapsdir}}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir}}
 
 install xrdesktop $RPM_BUILD_ROOT%{_bindir}
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changelog README
 %attr(755,root,root) %{_bindir}/xrdesktop
-%{_applnkdir}/Network/xrdesktop.desktop
+%{_desktopdir}/*
 %{_pixmapsdir}/*.png
