@@ -1,4 +1,5 @@
-Summary:	Frontend to rdesktop.
+%include	/usr/lib/rpm/macros.perl
+Summary:	Frontend to rdesktop
 Summary(pl):	Graficzny interfejs do obs³ugi rdesktop
 Name:		xrdesktop
 Version:	0.4
@@ -33,6 +34,7 @@ gtk-perl
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/Network}
+
 install xrdesktop $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network
 
@@ -41,6 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc Changelog README
 %attr(755,root,root) %{_bindir}/xrdesktop
-%doc COPYING Changelog INSTALL README
 %{_applnkdir}/Network/xrdesktop.desktop
