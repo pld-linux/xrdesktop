@@ -10,9 +10,9 @@ Source0:	http://linux0wnsyou.com/xrdesktop/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 URL:		http://linux0wnsyou.com/xrdesktop/
 Patch0:		%{name}-fix.patch
-BuildRequires:	rpm-perlprov
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-gtk >= 0.7008
+BuildRequires:	rpm-perlprov
 Requires:	rdesktop >= 1.1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -24,8 +24,8 @@ Simple program, written in perl using gtk-perl, as a frontend to
 rdesktop.
 
 %description -l pl
-Graficzny interfejs do obs³ugi rdesktop, napisany w perlu przy pomocy
-gtk-perl
+Graficzny interfejs do obs³ugi rdesktop, napisany w Perlu przy pomocy
+Gtk-Perl.
 
 %prep
 %setup -q
