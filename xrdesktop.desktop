@@ -4,6 +4,6 @@ Comment=rdesktop frontend
 Comment[pl]=Interfejs dla rdesktop
 Icon=xrdesktop.png
 Exec=xrdesktop
-Terminal=0
+Terminal=false
 Type=Application
 # vi: encoding=utf-8
