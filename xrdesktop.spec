@@ -3,7 +3,7 @@ Summary:	Frontend to rdesktop
 Summary(pl):	Graficzny interfejs do obs³ugi rdesktop
 Name:		xrdesktop
 Version:	0.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://linux0wnsyou.com/xrdesktop/%{name}-%{version}.tar.gz
@@ -12,16 +12,15 @@ Source1:	%{name}.desktop
 Source2:	%{name}.png
 URL:		http://linux0wnsyou.com/xrdesktop/
 Patch0:		%{name}-fix.patch
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	perl-gtk >= 0.7008
-BuildRequires:	rpm-perlprov
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	rdesktop >= 1.1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
-Simple program, written in perl using gtk-perl, as a frontend to
+Simple program, written in Perl using Gtk-Perl, as a frontend to
 rdesktop.
 
 %description -l pl
