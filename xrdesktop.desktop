@@ -7,4 +7,5 @@ Icon=xrdesktop.png
 Exec=xrdesktop
 Terminal=false
 Type=Application
+Categories=Network;RemoteAccess;
 # vi: encoding=utf-8
