@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Xrdesktop
+Comment=rdesktop frontend
+Comment[pl]=Interfejs dla rdesktop
+Exec=xrdesktop
+Terminal=0
+Type=Application
+# vi: encoding=utf-8
