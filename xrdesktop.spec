@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://linux0wnsyou.com/xrdesktop/%{name}-%{version}.tar.gz
+# Source0-md5:	3e96c6f54959b803e75cb10410d08c31
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 URL:		http://linux0wnsyou.com/xrdesktop/
