@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Frontend to rdesktop
-Summary(pl):	Graficzny interfejs do obs≥ugi rdesktop
+Summary(pl.UTF-8):   Graficzny interfejs do obs≈Çugi rdesktop
 Name:		xrdesktop
 Version:	0.5
 Release:	3
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Simple program, written in Perl using Gtk-Perl, as a frontend to
 rdesktop.
 
-%description -l pl
-Graficzny interfejs do obs≥ugi rdesktop, napisany w Perlu przy pomocy
+%description -l pl.UTF-8
+Graficzny interfejs do obs≈Çugi rdesktop, napisany w Perlu przy pomocy
 Gtk-Perl.
 
 %prep
