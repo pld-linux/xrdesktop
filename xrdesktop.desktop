@@ -1,9 +1,8 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Xrdesktop
 Comment=rdesktop frontend
 Comment[pl]=Interfejs dla rdesktop
-Icon=xrdesktop.png
+Icon=xrdesktop
 Exec=xrdesktop
 Terminal=false
 Type=Application
