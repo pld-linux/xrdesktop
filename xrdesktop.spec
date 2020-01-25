@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Frontend to rdesktop
 Summary(pl.UTF-8):	Graficzny interfejs do obsługi rdesktop
 Name:		xrdesktop
